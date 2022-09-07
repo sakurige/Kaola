@@ -1,0 +1,232 @@
+#all{
+    background-color: #f0f0f0;
+}
+.topad{
+    /* position: relative; */
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+.adpic{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: -50%;
+    transform: translateX(50%);
+}
+.topnav{
+    position: relative;
+    background-color: #000;
+    color: #999;
+    z-index: 3;
+    border-bottom: 1px solid #ededee;
+}
+.min-topnav{
+    height: 30px;
+    width: 1090px;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 30px;
+}
+.nav-left2{
+    position: relative;
+}
+.nav-left2:hover .qrcode{
+    display: block;
+}
+.nav-left2 .qrcode{
+    position: absolute;
+    display: block;
+    border: 1px solid #ededee;
+    top: 30px;
+    left: -3px;
+    text-align: center;
+    display: none;
+    background-color: #ffffff;
+}
+
+.nav-left2 .qrcode .codepic{
+    width: 116px;
+    height: 116px;
+}
+.nav-left2 .qrcode .txt{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333;
+    padding: 4px 0;
+    text-align: center;
+}
+.nav-left1,
+.nav-left2{
+    float: left;
+}
+.nav-right{
+    float: right;
+}
+.nav-rigth-content{
+    float: left;
+}
+.nav-left1 a,
+.nav-left2 a,
+.nav-right a{
+    color: #999;
+}
+.nav-left1 .login{
+    margin-left: 14px;
+}
+.set1{
+    visibility: hidden;
+    padding: 0 10px;
+}
+.nav-left2{
+    padding-left: 30px;
+}
+.nav-right .right1{
+    padding: 0 14px 0 8px;
+}
+.set2{
+    visibility: hidden;
+}
+.iconfont{
+    font-size: 12px;
+}
+.nav-serach{
+    padding: 0 24px 0 16px !important;
+}
+.difnav{
+    padding-bottom: 3px;
+}
+.difnav:hover,
+.difnav:hover>a,
+.difnav:hover i{
+    background-color: #fff;
+    color: red ;
+}
+.difnav:hover .hidcontent{
+    display: block;
+}
+.hidcontent{
+    position: absolute;
+    padding: 3px 22px 12px 8px;
+    background-color: #fff;
+    z-index: 2;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+.hidcontent .fontcolor:hover{
+    color: red;
+}
+.fontcolor2:hover{
+    color: #fff;
+}
+.iconfont{
+    color: #999 !important;
+}
+/* 搜索框部分 */
+.headwarp{
+    position: relative;
+    height: 100px;
+}
+.headbox{
+    position: relative;
+    width: 1090px;
+    margin: 0 auto;
+    background-color: #BBB;
+}
+.headerpic{
+    position: absolute;
+    width: 330px;
+    height: 65px;
+    background: url(../images/topsearch.png) no-repeat;
+    background-size: auto 65px;
+    top: 20px;
+    z-index: -1;
+}
+.headwarp .headsearch{
+    position: absolute;
+    font: 12px/1.5 Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+    left: 343px;
+    top: 33px;
+}
+.headwarp .headsearch .warpipt{
+    height: 40px;
+    width: 510px;
+    padding-left: 1px;
+    border-radius: 40px;
+    background-color: #ff2337;
+}
+.warp{
+    float: left;
+    margin: 2px 1px;
+    padding: 6px 39px 6px 30px;
+    background-color: #fff;
+    border-radius: 24px 0 0 24px;
+}
+.headwarp .headsearch .topipt{
+    float: left;
+    width: 410px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+    padding: 0;
+    outline: none;
+    border: 0;
+}
+.warpipt .rightpic{
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-image: linear-gradient(270deg,#ff2e64,#ff0003);
+    border-radius: 40px;
+    right: 0;
+}
+.warpipt .rightpic .searchpic{
+    position: absolute;
+    display: inline-block;
+    height: 40px;
+    width: 50px;
+    font-size: 19px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    right: 5px;
+    background: url(../images/all.png);
+    background-position: -490px -655px;
+}
+.warpipt .leftpic{
+    position: absolute;
+    height: 40px;
+    width: 50px;
+    left: 0;
+    background: url(../images/all.png);
+    background-position: -457px -655px;
+}
+.headwarp .shopcar{
+    position: absolute;
+    right: 76px;
+    top: 33px;
+    width: 106px;
+    height: 36px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 36px;
+    border: 2px #ff2337 solid;
+    cursor: pointer;
+}
+.headwarp .shopcar .car{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+    margin-bottom: -5px;
+    background: url(../images/car.png);
+}
+.headwarp .shopcar:hover{
+    background-color: #fff4f5;
+    color: #ff2337;
+}
